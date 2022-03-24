@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundo_cristal"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-130dp"
+        android:layout_marginBottom="144.5dp"
+        android:fontFamily="@font/delius_unicase"
+        android:text="Tic-Tac-Toe"
+        android:textColor="@color/white"
+        android:textSize="57sp" />
+
+    <Button
+        android:id="@+id/btn1v1"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="PLAYER X PLAYER"
+        android:backgroundTint="@color/black"
+        android:layout_marginBottom="126dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn1vPc"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="PLAYER X COMPUTADOR"
+        android:backgroundTint="@color/black"
+        />
+
+</LinearLayout>
