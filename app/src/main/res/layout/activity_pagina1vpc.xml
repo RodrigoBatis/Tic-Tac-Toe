@@ -48,9 +48,8 @@
         <EditText
             android:layout_width="160dp"
             android:layout_height="45dp"
-            android:text="Type your name"
+            android:hint="Type your name"
             android:textColor="@color/black"
-            android:background="@color/white"
             android:gravity="center"/>
     </LinearLayout>
 
