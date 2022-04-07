@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
+import android.widget.TextView
 
 private lateinit var nome1EditText: EditText
 private lateinit var nome2EditText: EditText
@@ -29,14 +30,24 @@ class Pagina1v1Activity : AppCompatActivity() {
                 val nome1 = nome1EditText.text.toString()
                 val nome2 = nome2EditText.text.toString()
 
+
             val intent = Intent(this, Partida1v1::class.java)
-            startActivity(intent)
+
+                intent.putExtra("player1", nome1)
+                intent.putExtra("player2", nome2)
+
+                startActivity(intent)
 
             }
         }
 
-        x.setOnClickListener(){}
-        o.setOnClickListener(){}
+        x.setOnClickListener(){
+
+        }
+
+        o.setOnClickListener(){
+
+        }
     }
 
     private fun validarCampos(): Boolean {

@@ -19,19 +19,23 @@
         >
 
         <TextView
+            android:id="@+id/name1"
             android:layout_width="150dp"
             android:layout_height="58dp"
             android:layout_marginRight="50dp"
-            android:text="PLAYER1"
+            android:text=""
             android:gravity="center"
-            android:textColor="@color/white"/>
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
 
         <TextView
+            android:id="@+id/name2"
             android:layout_width="150dp"
             android:layout_height="58dp"
-            android:text="PLAYER2"
+            android:text=""
             android:gravity="center"
-            android:textColor="@color/white"/>
+            android:textColor="@color/black"
+            android:textSize="25sp"/>
 
     </LinearLayout>
 
@@ -121,9 +125,9 @@
             android:background="#00000000"/>
     </LinearLayout>
 
-    <Button
+    <ImageButton
         android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:background="@drawable/reset"
         />
 </LinearLayout>

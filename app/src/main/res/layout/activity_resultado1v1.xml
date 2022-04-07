@@ -66,21 +66,21 @@
         android:orientation="horizontal"
 >
 
-        <Button
+        <ImageButton
             android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:background="@drawable/new_game"
             android:layout_marginRight="55dp"/>
 
-        <Button
+        <ImageButton
             android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:background="@drawable/close"
             android:layout_marginRight="55dp"/>
 
-        <Button
+        <ImageButton
             android:layout_width="100dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:background="@drawable/main_menu"/>
 
     </LinearLayout>
