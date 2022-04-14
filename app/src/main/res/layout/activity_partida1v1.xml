@@ -46,25 +46,28 @@
         android:orientation="horizontal"
         android:paddingLeft="20dp">
 
-        <Button
+        <ImageView
             android:id="@+id/btn1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginRight="30dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
 
-        <Button
+        <ImageView
             android:id="@+id/btn2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginRight="40dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
 
-        <Button
+        <ImageView
             android:id="@+id/btn3"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
     </LinearLayout>
 
     <LinearLayout
@@ -75,25 +78,28 @@
         android:layout_marginBottom="30dp"
         >
 
-        <Button
+        <ImageView
             android:id="@+id/btn4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginRight="30dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
 
-        <Button
+        <ImageView
             android:id="@+id/btn5"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginRight="40dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
 
-        <Button
+        <ImageView
             android:id="@+id/btn6"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
     </LinearLayout>
 
     <LinearLayout
@@ -104,25 +110,28 @@
         android:layout_marginBottom="70dp"
         >
 
-        <Button
+        <ImageView
             android:id="@+id/btn7"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginRight="30dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
 
-        <Button
+        <ImageView
             android:id="@+id/btn8"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_marginRight="40dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
 
-        <Button
+        <ImageView
             android:id="@+id/btn9"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:background="#00000000"/>
+            android:background="#00000000"
+            android:onClick="btnClick" />
     </LinearLayout>
 
     <ImageButton

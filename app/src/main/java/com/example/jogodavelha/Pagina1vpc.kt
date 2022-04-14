@@ -40,6 +40,9 @@ class Pagina1vpc : AppCompatActivity() {
                 val nome1 = nome1EditText.text.toString()
 
                 val intent = Intent(this, Partida1vPc::class.java)
+
+                intent.putExtra("player1", nome1 )
+
                 startActivity(intent)
 
             }
@@ -53,6 +56,9 @@ class Pagina1vpc : AppCompatActivity() {
                 val nome1 = nome1EditText.text.toString()
 
                 val intent = Intent(this, Partida1vPc::class.java)
+
+                intent.putExtra("player1", nome1 )
+
                 startActivity(intent)
 
             }
