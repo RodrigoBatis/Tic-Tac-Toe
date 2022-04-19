@@ -17,8 +17,6 @@ class Pagina1v1Activity : AppCompatActivity() {
         setContentView(R.layout.activity_pagina1v1)
 
         val go = findViewById<Button>(R.id.go)
-        val x = findViewById<ImageView>(R.id.x)
-        val o = findViewById<ImageView>(R.id.o)
 
         go.setOnClickListener {
 
@@ -41,13 +39,6 @@ class Pagina1v1Activity : AppCompatActivity() {
             }
         }
 
-        x.setOnClickListener(){
-
-        }
-
-        o.setOnClickListener(){
-
-        }
     }
 
     private fun validarCampos(): Boolean {
